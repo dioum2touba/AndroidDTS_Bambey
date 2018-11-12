@@ -17,7 +17,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.ChildEventListener;
@@ -112,7 +111,6 @@ public class FragmentPicture extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 pDialog.setCancelable(true);
-                Toast.makeText(getContext(), "Ca vient", Toast.LENGTH_SHORT).show();
 
             }
 
@@ -190,7 +188,7 @@ public class FragmentPicture extends Fragment {
                                     pDialog.setTitleText("Patientez s'il vous plait!");
                                     pDialog.show();
 
-                                    new MainActivity().addNotification();
+
                                 }
                                 else
                                 {

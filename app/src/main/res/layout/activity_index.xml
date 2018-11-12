@@ -43,13 +43,13 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="10dp"
         app:tabGravity="fill"
         app:tabMode="fixed"
         android:id="@+id/tablayout_id"
         app:tabTextColor="@color/tabtextcolor"
         app:tabIndicatorColor="@color/tabindicatorcolor"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/tabBar"/>
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"

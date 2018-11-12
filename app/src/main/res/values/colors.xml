@@ -6,5 +6,6 @@
     <color name="backgroundfragment">#2b2b2b</color>
     <color name="black">#000000</color>
     <color name="tabtextcolor">#fff</color>
-    <color name="tabindicatorcolor">#2d2d2d</color>
+    <color name="tabindicatorcolor">#0336FF</color>
+    <color name="tabBar">#448AFF</color>
 </resources>

@@ -35,7 +35,7 @@ public class ServiceNotification extends Service {
         return super.onStartCommand(intent, flags, START_NOT_STICKY);
     }
 
-    private void showNotification(String aMessage, Context context) {
+    public void showNotification(String aMessage, Context context) {
         final int NOTIFY_ID = 0; // ID of notification
         String id = "12"; // default_channel_id
         String title = "3"; // Default Channel
@@ -98,7 +98,7 @@ public class ServiceNotification extends Service {
 
     }
 
-    private void initializeTimerTask() {
+    public void initializeTimerTask() {
         timerTask = new TimerTask() {
             public void run() {
                 // Afficher la notification
